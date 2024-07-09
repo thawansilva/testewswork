@@ -1,7 +1,7 @@
 # Teste Front End WS Work
 
 Neste teste utilizei a ferramenta Vite para facilitar a criação da aplicação e pela rapidez, Axios para realizar as requisições e Tailwind para estilização.
-Optei por usar JSON Server para criar uma API fake por conta de problemas com CORS que enfrentei no momento de requisição da api pelos seguintes links:
+Optei por usar JSON Server [API-FAKE](https://fakeapiws.vercel.app/cars) para criar uma API fake por conta de problemas com CORS que enfrentei no momento de requisição da api pelos seguintes links:
 
 - [cars.json](https://wswork.com.br/cars.json)
 - [cars_by_brand.json](https://wswork.com.br/cars_by_brand.json)
@@ -36,7 +36,6 @@ Optei por usar JSON Server para criar uma API fake por conta de problemas com CO
 
 - NodeJS (v22.3.0)
 - NPM (10.8.1)
-- JSON Server (1.0.0-beta.1)
 
 ```
 /* Clonar repositório */
@@ -50,8 +49,5 @@ npm install
 
 /* Rodar a aplicação */
 npm run dev
-
-/* Simular uma API RESTful (Executar em outro terminal) */
-npm run server
 
 ```
