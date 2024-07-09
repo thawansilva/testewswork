@@ -13,7 +13,7 @@ export const Form = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
     axios
-      .post("http://localhost:3000/cars", {
+      .post("https://fakeapiws.vercel.app/cars", {
         id: String.toString(Math.round(Math.random() * 100)),
         timestamp_cadastro: new Date().getTime(),
         modelo_id: Math.round(Math.random() * 100),
