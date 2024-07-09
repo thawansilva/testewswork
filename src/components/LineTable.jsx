@@ -3,7 +3,7 @@ import React from "react";
 
 export const LineTable = ({ element }) => {
   const handleDelete = (id) => {
-    axios.delete("http://localhost:3000/cars/" + id);
+    axios.delete("https://fakeapiws.vercel.app/cars" + id);
   };
   const thousand = 1000;
   return (
